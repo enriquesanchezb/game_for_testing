@@ -6,6 +6,7 @@ class Enemy {
         this.frameInternal = 1000/this.fps;
         this.frameTimer = 0;
         this.markedForDeletion = false;
+        this.points = 1;
     }
     update(deltaTime){
         // Movement
@@ -42,7 +43,8 @@ export class FlyingEnemy extends Enemy {
         this.maxFrame = 5;
         this.image = document.getElementById('enemy_fly');
         this.angle = 0;
-        this.va = Math.random() * 0.1 + 0.1;
+        this.va = Math.random() * 0.3 + 0.3;
+        this.points = 0.5;
     }
     update(deltaTime){
         super.update(deltaTime);
@@ -63,6 +65,7 @@ export class GroundEnemy extends Enemy {
         this.speedX = 0;
         this.speedY = 0;
         this.maxFrame = 1;
+        this.points = 3;
     }
 }
 
@@ -78,6 +81,7 @@ export class ClimbingEnemy extends Enemy {
         this.speedX = 0
         this.speedY = Math.random() > 0.5 ? 1 : -1;
         this.maxFrame = 5;
+        this.points = 5
     }
     update(deltaTime){
         super.update(deltaTime);

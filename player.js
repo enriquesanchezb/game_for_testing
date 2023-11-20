@@ -74,8 +74,8 @@ export class Player {
                 enemy.markedForDeletion = true;
                 this.game.collisions.push(new collisionAnimation(this.game, enemy.x + enemy.width * 0.5, enemy.y + enemy.height * 0.5));
                 if (this.currentState === this.states[4] || this.currentState === this.states[5]){
-                    this.game.score++;
-                    this.game.floatingMessages.push(new FloatingMessage('+1', enemy.x, enemy.y, 150, 50));
+                    this.game.score+=enemy.points;
+                    this.game.floatingMessages.push(new FloatingMessage('+' + enemy.points, enemy.x, enemy.y, 150, 50));
                 } else {
                     this.setState(6,0);
                     this.game.lives--;

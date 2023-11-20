@@ -26,10 +26,10 @@ window.addEventListener('load', function(){
             this.collisions = [];
             this.floatingMessages = [];
             this.enemyTimer = 0;
-            this.enemyInterval = 1000;
+            this.enemyInterval = 1500;
             this.debug = false;
             this.score = 0;
-            this.winningScore = 40;
+            this.winningScore = 100;
             this.fontColor = 'black';
             this.time = 0;
             this.maxTime = 30000;
