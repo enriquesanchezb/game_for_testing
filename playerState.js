@@ -27,7 +27,7 @@ export class Sitting extends State {
         this.game.player.frameY = 5;
     }
     handleInput(input){
-        if(input.includes('ArrowLeft') || input.includes('ArrowRight')){
+        if(input.includes('ArrowRight')){
             this.game.player.setState(states.RUNNING, 1);
         } else if (input.includes('Enter')){
             this.game.player.setState(states.ROLLING, 2);

@@ -22,7 +22,6 @@ The primary goal of the game is to score over 100 points. Points are earned by e
 - Up Arrow: Jump
 - Down Arrow: Crouch
 - Right Arrow: Move Right
-- Left Arrow: Move Left
 - ENTER: Strike Attack
 
 ## Testing and Bug Reporting Exercise

@@ -5,7 +5,6 @@ export class InputHandler {
         window.addEventListener('keydown', e =>{
             if ((   e.key == 'ArrowDown' || 
                     e.key == 'ArrowUp' || 
-                    e.key == 'ArrowLeft' || 
                     e.key == 'ArrowRight' || 
                     e.key == 'Enter') 
                 && this.keys.indexOf(e.key) === -1){
@@ -15,7 +14,6 @@ export class InputHandler {
         window.addEventListener('keyup', e =>{
             if (    e.key == 'ArrowDown' || 
                     e.key == 'ArrowUp' || 
-                    e.key == 'ArrowLeft' || 
                     e.key == 'ArrowRight' || 
                     e.key == 'Enter'){
                 this.keys.splice(this.keys.indexOf(e.key), 1);
