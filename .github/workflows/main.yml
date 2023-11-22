@@ -1,0 +1,16 @@
+name: Deploy to surge
+
+on: main
+
+jobs:
+  my-job:
+    name: My job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to game_for_testing.surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: 'game_for_testing.surge.sh'
+          project: '.'
+          login: ${{ surge_login }}
+          token: ${{ surge_token }}
