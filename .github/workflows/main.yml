@@ -11,6 +11,6 @@ jobs:
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'game_for_testing.surge.sh'
-          project: '.'
+          project: '../'
           login: ${{ secrets.SURGE_LOGIN }}
           token: ${{ secrets.SURGE_TOKEN }}
