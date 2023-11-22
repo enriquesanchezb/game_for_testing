@@ -41,7 +41,10 @@ window.addEventListener('load', function(){
         }
         update(deltaTime){
             this.time += deltaTime;
-            if(this.time >= this.maxTime || this.score >= this.winningScore) this.gameOver = true;
+            if(this.time >= this.maxTime || this.score >= this.winningScore) 
+                this.gameOver = true;
+                this.time = this.maxTime
+            }
             this.background.update();
             this.player.update(this.input.keys,deltaTime);
             // Handle enemies
