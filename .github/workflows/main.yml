@@ -12,5 +12,5 @@ jobs:
         with:
           domain: 'game_for_testing.surge.sh'
           project: '.'
-          login: ${{ surge_login }}
-          token: ${{ surge_token }}
+          login: ${{ SURGE_LOGIN }}
+          token: ${{ SURGE_TOKEN }}
