@@ -32,16 +32,29 @@ This game serves a dual purpose:
 a) Testing the game thoroughly using various automated testing methods (unit tests, integration tests, end-to-end tests, etc.).
 b) Identifying and reporting any bugs found in the game.
 
-### Scoring System for the Exercise:
-1 point for each different test performed (Unit, Integration, etc.).
-1 point for each unique bug found and reported first.
-1 extra point for the best coverage in the following features: Scoring, Movement, End Game, Collision System.
-1 extra point for adding new functionality/improving/correcting a bug in the game.
+## Evaluation Criteria
+The evaluation for participating in the development and testing of this game will be as follows:
+
+- Creating a Manual Test Plan: 1 point.
+- Automated Testing for Specific Features: Testing features such as movement, scoring, collision, and - game end automatically will earn 1 point for each feature successfully automated.
+- Different Types of Automated Tests: 1 point for each type of automated test (unit, integration, end-to-end, etc.) that is functional.
+- Best Coverage for Each Feature: 1 point for achieving the best test coverage for each feature (Scoring, Movement, End Game, Collision System).
+- First to Correctly Report a Bug: 1 point for being the first to correctly report a bug.
+- Code Refactoring for Readability and Testability: 1 point for refactoring the code to enhance readability and testability.
+- Continuous Integration/Continuous Deployment (CI/CD): 1 point for successfully implementing CI/CD in the project.
+- Adding an Improvement/New Feature: 1 point for each improvement or new feature added to the game.
+
+At the end of the allocated time, all projects will be reviewed, points will be summed up, and a winner will be announced.
+
 
 ### Reporting Bugs
 Report bugs on GitHub as an issue. Quality reports will be highly valued. Here is an example of how to score:
 
 - Found and reported a bug in the collision system first: 1 point.
 - Achieved the highest test coverage for the Scoring feature: 1 extra point.
+
+### Prizes
+First Place: Trophy + Bottle of Spanish Wine
+Second Place: Medal + Bottle of Cazalla
 
 Happy gaming and bug hunting!
