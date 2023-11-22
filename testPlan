@@ -1,0 +1,75 @@
+### Game Controls:
+
+1. **Move Left:**
+    - Verify that the character moves left when the left arrow key (or corresponding control) is pressed.
+    - Ensure smooth and responsive movement.
+
+2. **Move Right:**
+    - Verify that the character moves right when the right arrow key (or corresponding control) is pressed.
+    - Ensure smooth and responsive movement.
+
+3. **Jump:**
+    - Confirm that the character jumps when the jump key (or corresponding control) is pressed.
+    - Check for appropriate jump height and gravity effect.
+
+4. **Attack:**
+    - Confirm that the character attacks when the attack key (or corresponding control) is pressed.
+    - Check for proper animation and sound effects.
+
+
+### Enemy Interactions:
+
+5. **Ground Enemies:**
+    - Encounter ground enemies and verify that they can be attacked and defeated.
+    - Confirm that the player receives 3 points for each ground enemy defeated.
+
+6. **Flying Enemies:**
+    - Encounter flying enemies and verify that they can be attacked and defeated.
+    - Confirm that the player receives 0.5 points for each flying enemy defeated.
+
+7. **Hanging Enemies:**
+    - Encounter hanging enemies and verify that they can be attacked and defeated.
+    - Confirm that the player receives 5 points for each hanging enemy defeated.
+
+8. **Enemy Behavior:**
+    - Observe the behavior of enemies to ensure they move appropriately and pose a challenge.
+    - Confirm that enemies do not overlap or exhibit unusual behavior.
+
+
+### Scoring and Win Condition:
+
+9. **Scoring System:**
+    - Verify that the scoring system is working correctly for each type of enemy.
+    - Confirm that the points are appropriately added to the player's score.
+
+10. **Win Condition:**
+    - Play the game and ensure that reaching 100 points within 30 seconds triggers a win.
+    - Verify that the game ends and displays a victory message.
+
+
+### Time Limit:
+
+11. **Time Limit:**
+    - Play the game and ensure that the time limit of 30 seconds is enforced.
+    - Verify that the game ends when the time limit is reached.
+
+
+### Miscellaneous:
+
+12. **Collision Detection:**
+    - Check collision detection between the player character and platforms to ensure accurate interactions.
+
+13. **Graphics and Animation:**
+    - Verify that graphics and animations are smooth and do not exhibit glitches.
+    - Confirm that transitions between actions are visually appealing.
+
+14. **Sound Effects:**
+    - Check that sound effects are synchronized with game actions.
+    - Confirm that the volume levels are appropriate.
+
+15. **Controls during Gameplay:**
+    - Test controls during gameplay to ensure they remain responsive and accurate.
+    - Confirm that there are no control-related issues.
+
+16. **Pause and Resume:**
+    - Verify that the game can be paused and resumed without any issues.
