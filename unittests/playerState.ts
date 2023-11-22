@@ -40,11 +40,6 @@ test('Sitting state - handleInput()', () => {
   expect(game.player.setState).toHaveBeenCalledWith(states.RUNNING, 1);
 });
 
-// Repeat similar tests for other states: Running, Jumping, Falling, Rolling, Diving, HIT
-// ...
-
-// Sample tests for other states
-
 // Test Running state
 test('Running state - enter()', () => {
   const game = new Game();
@@ -85,9 +80,6 @@ test('Jumping state - enter()', () => {
   
     expect(game.player.setState).toHaveBeenCalledWith(states.ROLLING, 2);
   });
-  
-  // Repeat similar tests for other states: Falling, Rolling, Diving, HIT
-  // ...
   
   // Sample tests for Falling state
   test('Falling state - enter()', () => {
