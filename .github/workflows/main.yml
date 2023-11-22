@@ -1,6 +1,6 @@
-name: Deploy to surge
+name: Deploy to game
 
-on: main
+on: push
 
 jobs:
   my-job:
